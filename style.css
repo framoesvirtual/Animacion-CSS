@@ -1,0 +1,21 @@
+/* Estilos generales */
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Cuadrado animado */
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transition: transform 1s linear, background-color 1s, width 1s, height 1s;
+}
